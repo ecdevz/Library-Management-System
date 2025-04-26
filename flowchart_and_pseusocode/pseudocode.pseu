@@ -1,0 +1,39 @@
+BEGIN
+WHILE user hasn't chosen to exit DO
+  DISPLAY main menu:
+    1. Add Book
+    2. Search Book
+    3. Borrow Book
+    4. Return Book
+    5. Add Member
+    6. Search Member
+    0. Exit
+  INPUT user_choice
+  SWITCH user_choice
+    CASE 1:  // Add Book
+      INPUT book_title, book_author, book_isbn
+      AddBook(book_title, book_author, book_isbn)
+    CASE 2:  // Search Book
+      INPUT search_term
+      SearchBook(search_term)
+    CASE 3:  // Borrow Book
+      INPUT book_isbn, member_id
+      BorrowBook(book_isbn, member_id)
+    CASE 4:  // Return Book
+      INPUT book_isbn, member_id
+      ReturnBook(book_isbn, member_id)
+    CASE 5:  // Add Member
+      INPUT member_id, member_name
+      AddMember(member_id, member_name)
+    CASE 6:  // Search Member
+      INPUT search_term
+      SearchMember(search_term)
+    CASE 0:  // Exit
+      BREAK //Exit the loop
+    DEFAULT:
+      DISPLAY "Invalid choice. Please try again."
+  ENDSWITCH
+ENDWHILE
+END
+
+

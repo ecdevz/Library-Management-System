@@ -1,0 +1,50 @@
+{
+    "2": {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": false,
+            "borrowedDate": null,
+            "returnDate": null,
+            "borrowedTo": null
+        }
+    },
+    "3": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "year": 1951,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": true,
+            "borrowedDate": "2021-01-15",
+            "returnDate": null,
+            "borrowedTo": "Jane Doe"
+        }
+    },
+    "4": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": true,
+            "borrowedTo": "Nimal",
+            "borrowedDate": "2024-12-23",
+            "returnDate": "2025-01-23"
+        }
+    },
+    "5": {
+        "title": "The Great Gatsby part 01",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    }
+}

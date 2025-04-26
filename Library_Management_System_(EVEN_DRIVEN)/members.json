@@ -1,0 +1,13 @@
+{
+    "1": {
+        "name": "John Doe",
+        "nic": "123456789V",
+        "contact": "0712345678",
+        "address": "No. 1, Main Street, Colombo 01",
+        "status": {
+            "lastBorrowedDate": null,
+            "lastReturnDate": null,
+            "lastBorrowedBookId": null
+        }
+    }
+}

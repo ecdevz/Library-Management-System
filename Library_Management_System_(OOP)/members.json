@@ -1,0 +1,35 @@
+{
+    "1": {
+        "nic": "123456789V",
+        "name": "John Doe",
+        "address": "123, Main Street, Colombo 01",
+        "contact": "0712345678",
+        "status": {
+            "lastBorrowedDate": "2021-01-15",
+            "lastReturnDate": "2021-01-30",
+            "lastBorrowedBookId": "2"
+        }
+    },
+    "2": {
+        "nic": "987654321V",
+        "name": "Jane Doe",
+        "address": "456, Main Street, Colombo 02",
+        "contact": "0712345678",
+        "status": {
+            "lastBorrowedDate": "2021-01-15",
+            "lastReturnDate": "2021-01-30",
+            "lastBorrowedBookId": "3"
+        }
+    },
+    "3": {
+        "name": "Dinuka Mullidaran",
+        "nic": "123456789V",
+        "contact": "0712345678",
+        "address": "Colombo, Sri Lanka",
+        "status": {
+            "lastBorrowedDate": null,
+            "lastReturnDate": null,
+            "lastBorrowedBookId": null
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "5": {
+        "title": "The Great Gatsby part 01",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    }
+}
